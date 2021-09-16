@@ -1,0 +1,111 @@
+attribute,weights
+Crunchy,"{'00076-07': Decimal('1'), '00039-12': Decimal('1'), '00032-07': Decimal('1'), '00060-12': Decimal('1')}"
+Jangly,"{'00009-06': Decimal('1'), '00072-06': Decimal('1'), '00041-09': Decimal('1'), '00058-12': Decimal('1'), '00020-09': Decimal('1'), '00032-12': Decimal('1'), '00043-11': Decimal('1'), '00027-11': Decimal('1')}"
+Round,{}
+Tinny,"{'00071-11': Decimal('1'), '00045-10': Decimal('1'), '00064-11': Decimal('1'), '00056-10': Decimal('1'), '00046-12': Decimal('1'), '00044-12': Decimal('1')}"
+Light,"{'00075-03': Decimal('1'), '00015-03': Decimal('1')}"
+Hollow,{}
+Anemic,{}
+Dark,"{'00058-07': Decimal('1'), '00034-03': Decimal('1'), '00013-07': Decimal('1'), '00052-03': Decimal('1'), '00021-07': Decimal('1'), '00078-07': Decimal('1')}"
+Loose,"{'00060-02': Decimal('1'), '00054-02': Decimal('1')}"
+Vocal,"{'00011-11': Decimal('1'), '00073-02': Decimal('1'), '00022-11': Decimal('1'), '00058-09': Decimal('1'), '00075-02': Decimal('1'), '00041-09': Decimal('1')}"
+Thin,"{'00049-11': Decimal('1'), '00030-02': Decimal('1'), '00002-11': Decimal('1'), '00027-02': Decimal('1'), '00007-10': Decimal('1'), '00014-10': Decimal('1')}"
+Sizzling,"{'00060-11': Decimal('1'), '00040-11': Decimal('1')}"
+Bell-like,"{'00074-09': Decimal('1'), '00018-04': Decimal('1'), '00074-08': Decimal('1'), '00053-09': Decimal('1'), '00025-09': Decimal('1'), '00052-09': Decimal('1'), '00070-12': Decimal('1'), '00031-12': Decimal('1'), '00004-12': Decimal('1'), '00061-06': Decimal('1'), '00035-09': Decimal('1'), '00026-04': Decimal('1'), '00062-03': Decimal('1'), '00023-12': Decimal('1'), '00028-06': Decimal('1'), '00067-09': Decimal('1'), '00065-03': Decimal('1'), '00068-08': Decimal('1')}"
+Refined,"{'00050-10': Decimal('1'), '00072-10': Decimal('1')}"
+Flabby,"{'00080-01': Decimal('1'), '00049-01': Decimal('1'), '00077-01': Decimal('1'), '00048-07': Decimal('1'), '00063-07': Decimal('1'), '00021-01': Decimal('1')}"
+Articulate,{}
+Artificial,"{'00008-05': Decimal('1'), '00041-05': Decimal('1'), '00023-03': Decimal('1'), '00022-03': Decimal('1')}"
+Vibrant,"{'00010-10': Decimal('1'), '00010-09': Decimal('1'), '00013-09': Decimal('1'), '00044-10': Decimal('1')}"
+Bassy,"{'00002-07': Decimal('1'), '00021-07': Decimal('1')}"
+Choked,"{'00001-05': Decimal('1'), '00051-05': Decimal('1')}"
+Balanced,"{'00050-12': Decimal('1'), '00041-12': Decimal('1')}"
+Chimey,"{'00042-03': Decimal('1'), '00051-08': Decimal('1'), '00002-05': Decimal('1'), '00013-03': Decimal('1'), '00074-03': Decimal('1'), '00036-05': Decimal('1'), '00075-08': Decimal('1'), '00050-12': Decimal('1'), '00019-12': Decimal('1'), '00029-11': Decimal('1'), '00036-08': Decimal('1'), '00030-08': Decimal('1'), '00049-12': Decimal('1'), '00023-03': Decimal('1'), '00026-05': Decimal('1'), '00040-03': Decimal('1'), '00066-05': Decimal('1'), '00060-03': Decimal('1'), '00009-12': Decimal('1'), '00041-11': Decimal('1')}"
+Metallic,{}
+Big,"{'00022-09': Decimal('1'), '00035-05': Decimal('1'), '00038-09': Decimal('1'), '00040-09': Decimal('1'), '00064-05': Decimal('1'), '00039-05': Decimal('1'), '00062-05': Decimal('1'), '00061-04': Decimal('1'), '00020-09': Decimal('1'), '00047-04': Decimal('1')}"
+Boomy,"{'00003-01': Decimal('1'), '00001-05': Decimal('1'), '00042-07': Decimal('1'), '00013-06': Decimal('1'), '00062-06': Decimal('1'), '00066-05': Decimal('1'), '00067-07': Decimal('1'), '00019-01': Decimal('1')}"
+Dry,{}
+Chug,"{'00073-07': Decimal('1'), '00015-04': Decimal('1'), '00079-05': Decimal('1'), '00058-07': Decimal('1'), '00060-08': Decimal('1'), '00009-04': Decimal('1'), '00007-07': Decimal('1'), '00001-02': Decimal('1'), '00066-07': Decimal('1'), '00066-03': Decimal('1'), '00060-02': Decimal('1'), '00042-12': Decimal('1'), '00068-02': Decimal('1'), '00024-07': Decimal('1'), '00003-07': Decimal('1'), '00070-03': Decimal('1'), '00035-02': Decimal('1'), '00031-12': Decimal('1'), '00057-07': Decimal('1'), '00032-03': Decimal('1'), '00061-08': Decimal('1'), '00011-05': Decimal('1'), '00032-07': Decimal('1'), '00027-07': Decimal('1'), '00029-07': Decimal('1'), '00046-03': Decimal('1')}"
+Boxy,{}
+Lush,"{'00066-02': Decimal('1'), '00021-09': Decimal('1'), '00015-09': Decimal('1'), '00022-05': Decimal('1'), '00001-04': Decimal('1'), '00038-04': Decimal('1'), '00061-02': Decimal('1'), '00025-05': Decimal('1')}"
+Piercing,"{'00042-12': Decimal('1'), '00005-09': Decimal('1'), '00080-09': Decimal('1'), '00010-12': Decimal('1'), '00063-11': Decimal('1'), '00033-11': Decimal('1')}"
+Grunting,"{'00049-04': Decimal('1'), '00016-04': Decimal('1')}"
+Warm,{}
+Hissing,"{'00079-04': Decimal('1'), '00039-11': Decimal('1'), '00044-05': Decimal('1'), '00006-06': Decimal('1'), '00017-06': Decimal('1'), '00071-09': Decimal('1'), '00013-06': Decimal('1'), '00005-06': Decimal('1'), '00043-09': Decimal('1'), '00040-04': Decimal('1'), '00061-05': Decimal('1'), '00040-11': Decimal('1')}"
+Scooped,{}
+Hairy,{}
+Vintage,"{'00017-09': Decimal('1'), '00032-09': Decimal('1')}"
+Delicate,"{'00028-10': Decimal('1'), '00031-06': Decimal('1'), '00015-09': Decimal('1'), '00028-09': Decimal('2'), '00031-09': Decimal('1'), '00059-06': Decimal('1'), '00031-10': Decimal('1')}"
+Fuzzy,{}
+Raw,"{'00008-07': Decimal('1'), '00080-07': Decimal('1')}"
+Throaty,"{'00039-06': Decimal('1'), '00041-07': Decimal('1'), '00028-06': Decimal('1'), '00019-07': Decimal('1'), '00009-01': Decimal('1'), '00052-01': Decimal('1')}"
+Saturated,{}
+Icepicky,"{'00011-07': Decimal('1'), '00047-07': Decimal('1')}"
+Grotty,"{'00062-03': Decimal('1'), '00047-09': Decimal('1'), '00017-03': Decimal('1'), '00015-09': Decimal('1'), '00046-04': Decimal('1'), '00080-04': Decimal('1')}"
+Tight,"{'00005-07': Decimal('1'), '00024-07': Decimal('1')}"
+Aggressive,"{'00080-07': Decimal('1'), '00039-07': Decimal('1'), '00056-07': Decimal('1'), '00001-05': Decimal('1'), '00078-07': Decimal('1'), '00068-05': Decimal('1')}"
+Thick,"{'00010-07': Decimal('1'), '00068-02': Decimal('1'), '00019-02': Decimal('1'), '00015-07': Decimal('1')}"
+Pure,"{'00059-08': Decimal('1'), '00049-09': Decimal('1'), '00030-05': Decimal('1'), '00070-08': Decimal('1'), '00060-09': Decimal('1'), '00077-08': Decimal('1'), '00040-05': Decimal('1'), '00067-08': Decimal('1'), '00014-11': Decimal('1'), '00015-11': Decimal('1')}"
+Chewy,{}
+Cutting,"{'00050-03': Decimal('1'), '00030-03': Decimal('1')}"
+Detailed,"{'00066-01': Decimal('1'), '00045-01': Decimal('1')}"
+Smokey,{}
+Fat,"{'00080-12': Decimal('1'), '00013-09': Decimal('1'), '00075-12': Decimal('1'), '00037-09': Decimal('1')}"
+Mellow,"{'00067-11': Decimal('1'), '00007-09': Decimal('1'), '00020-05': Decimal('1'), '00016-05': Decimal('1'), '00068-09': Decimal('1'), '00002-11': Decimal('1'), '00051-11': Decimal('1'), '00076-03': Decimal('1'), '00070-11': Decimal('1'), '00057-03': Decimal('1'), '00046-02': Decimal('1'), '00045-02': Decimal('1')}"
+Strained,"{'00031-02': Decimal('1'), '00036-02': Decimal('1'), '00066-02': Decimal('1'), '00077-02': Decimal('1')}"
+Rich,"{'00068-03': Decimal('1'), '00045-07': Decimal('1'), '00040-03': Decimal('1'), '00075-07': Decimal('1')}"
+Heavy,{}
+Fizzy,"{'00038-04': Decimal('1'), '00013-04': Decimal('1'), '00038-07': Decimal('1'), '00056-07': Decimal('1')}"
+Flat,"{'00040-04': Decimal('1'), '00028-04': Decimal('1'), '00046-04': Decimal('1'), '00001-04': Decimal('1')}"
+Crisp,"{'00033-06': Decimal('1'), '00068-11': Decimal('1'), '00079-11': Decimal('1'), '00029-09': Decimal('1'), '00067-09': Decimal('1'), '00035-03': Decimal('1'), '00075-06': Decimal('1'), '00063-03': Decimal('1')}"
+Brutal,"{'00045-07': Decimal('1'), '00050-07': Decimal('1'), '00017-05': Decimal('1'), '00003-06': Decimal('1'), '00053-07': Decimal('1'), '00036-03': Decimal('1'), '00052-04': Decimal('1'), '00050-05': Decimal('1'), '00056-06': Decimal('1'), '00033-03': Decimal('1'), '00033-07': Decimal('1'), '00046-11': Decimal('1'), '00064-05': Decimal('1'), '00061-05': Decimal('1'), '00040-11': Decimal('1'), '00065-04': Decimal('1')}"
+Huge,"{'00031-02': Decimal('1'), '00002-09': Decimal('1'), '00025-02': Decimal('1'), '00063-06': Decimal('1'), '00068-09': Decimal('1'), '00049-06': Decimal('1'), '00044-02': Decimal('1'), '00053-02': Decimal('1')}"
+Raspy,"{'00041-04': Decimal('1'), '00064-04': Decimal('1'), '00047-02': Decimal('1'), '00054-02': Decimal('1')}"
+Chunky,"{'00026-04': Decimal('1'), '00075-04': Decimal('1'), '00038-07': Decimal('1'), '00067-07': Decimal('1')}"
+Muted,"{'00048-02': Decimal('1'), '00044-05': Decimal('1'), '00021-12': Decimal('1'), '00080-05': Decimal('1'), '00010-02': Decimal('1'), '00061-12': Decimal('1')}"
+Crushing,"{'00053-07': Decimal('1'), '00004-07': Decimal('1'), '00074-03': Decimal('1'), '00075-03': Decimal('1'), '00063-07': Decimal('1'), '00023-07': Decimal('1')}"
+Brittle,{}
+Clean,"{'00020-04': Decimal('1'), '00011-07': Decimal('1'), '00079-04': Decimal('1'), '00005-02': Decimal('1'), '00030-02': Decimal('1'), '00012-07': Decimal('1'), '00016-07': Decimal('1'), '00052-07': Decimal('1'), '00015-03': Decimal('1'), '00023-03': Decimal('1'), '00071-12': Decimal('1'), '00046-12': Decimal('1')}"
+Noisy,"{'00005-12': Decimal('1'), '00069-12': Decimal('1')}"
+Muddy,"{'00020-03': Decimal('1'), '00074-09': Decimal('1'), '00043-06': Decimal('1'), '00058-12': Decimal('1'), '00019-11': Decimal('1'), '00071-04': Decimal('1'), '00034-01': Decimal('2'), '00016-12': Decimal('1'), '00005-01': Decimal('1'), '00034-06': Decimal('1'), '00032-09': Decimal('1'), '00079-11': Decimal('1'), '00002-03': Decimal('1'), '00025-04': Decimal('1'), '00021-01': Decimal('1')}"
+Dynamic,"{'00007-11': Decimal('1'), '00055-11': Decimal('1')}"
+Sweet,"{'00045-10': Decimal('1'), '00074-08': Decimal('1'), '00045-12': Decimal('1'), '00028-12': Decimal('1'), '00008-10': Decimal('1'), '00033-08': Decimal('1')}"
+Velvety,"{'00018-02': Decimal('1'), '00004-11': Decimal('1'), '00056-06': Decimal('1'), '00078-03': Decimal('1'), '00058-08': Decimal('1'), '00031-06': Decimal('1'), '00010-03': Decimal('1'), '00016-08': Decimal('1'), '00025-04': Decimal('1'), '00044-11': Decimal('1'), '00046-02': Decimal('1'), '00066-04': Decimal('1')}"
+Liquidy,"{'00047-11': Decimal('1'), '00045-10': Decimal('1'), '00066-10': Decimal('1'), '00065-08': Decimal('1'), '00025-11': Decimal('1'), '00008-08': Decimal('1')}"
+Nasal,"{'00053-07': Decimal('1'), '00011-09': Decimal('1'), '00045-01': Decimal('1'), '00068-07': Decimal('1'), '00007-09': Decimal('1'), '00071-01': Decimal('1')}"
+Sterile,"{'00029-12': Decimal('1'), '00017-03': Decimal('1'), '00072-07': Decimal('1'), '00021-08': Decimal('1'), '00037-08': Decimal('1'), '00004-07': Decimal('1'), '00076-07': Decimal('1'), '00036-03': Decimal('1'), '00010-12': Decimal('1'), '00075-07': Decimal('1')}"
+Focused,"{'00041-10': Decimal('1'), '00071-10': Decimal('1')}"
+Sparkly,"{'00069-05': Decimal('1'), '00068-04': Decimal('1'), '00024-09': Decimal('1'), '00044-09': Decimal('1'), '00071-10': Decimal('1'), '00042-09': Decimal('1'), '00003-08': Decimal('1'), '00072-04': Decimal('1'), '00007-05': Decimal('1'), '00015-09': Decimal('1'), '00006-08': Decimal('1'), '00009-09': Decimal('1'), '00079-10': Decimal('1'), '00065-09': Decimal('1')}"
+Dull,"{'00077-07': Decimal('1'), '00055-07': Decimal('1'), '00068-11': Decimal('1'), '00023-05': Decimal('1'), '00058-05': Decimal('1'), '00050-11': Decimal('1')}"
+Distorted,"{'00033-12': Decimal('1'), '00007-12': Decimal('1')}"
+Thumping,"{'00042-01': Decimal('1'), '00044-03': Decimal('1'), '00044-06': Decimal('1'), '00022-05': Decimal('1'), '00074-01': Decimal('1'), '00016-01': Decimal('1'), '00054-01': Decimal('1'), '00032-03': Decimal('1'), '00033-04': Decimal('1'), '00075-11': Decimal('1'), '00002-04': Decimal('1'), '00064-06': Decimal('1'), '00027-04': Decimal('1'), '00048-05': Decimal('1'), '00008-11': Decimal('1'), '00066-04': Decimal('1')}"
+Greasy,"{'00006-12': Decimal('1'), '00037-04': Decimal('1'), '00015-04': Decimal('1'), '00062-12': Decimal('1')}"
+Clear,"{'00019-03': Decimal('1'), '00031-04': Decimal('1'), '00040-09': Decimal('1'), '00025-09': Decimal('1'), '00002-05': Decimal('1'), '00014-03': Decimal('1'), '00047-05': Decimal('1'), '00029-04': Decimal('1')}"
+Glassy,"{'00004-09': Decimal('1'), '00071-09': Decimal('1')}"
+Grind,"{'00033-01': Decimal('1'), '00039-01': Decimal('1'), '00063-01': Decimal('1'), '00071-04': Decimal('1'), '00027-01': Decimal('1'), '00001-04': Decimal('1')}"
+Edgy,{}
+Buzzy,{}
+Gritty,"{'00007-06': Decimal('1'), '00080-04': Decimal('1'), '00004-06': Decimal('1'), '00058-04': Decimal('1')}"
+Open,"{'00041-05': Decimal('1'), '00072-07': Decimal('1'), '00006-05': Decimal('1'), '00030-07': Decimal('1')}"
+Dirty,{}
+Soft,"{'00007-04': Decimal('1'), '00030-03': Decimal('1'), '00061-09': Decimal('1'), '00019-09': Decimal('1'), '00027-07': Decimal('1'), '00055-07': Decimal('1'), '00019-11': Decimal('1'), '00038-11': Decimal('1'), '00077-04': Decimal('1'), '00056-03': Decimal('1')}"
+Shrill,"{'00080-02': Decimal('1'), '00048-09': Decimal('1'), '00039-09': Decimal('1'), '00039-06': Decimal('1'), '00001-12': Decimal('1'), '00054-06': Decimal('1'), '00047-02': Decimal('1'), '00051-12': Decimal('1')}"
+Brilliant,{}
+Bright,"{'00069-08': Decimal('1'), '00061-08': Decimal('1')}"
+Searing,"{'00035-08': Decimal('1'), '00046-08': Decimal('1'), '00069-12': Decimal('1'), '00060-12': Decimal('1')}"
+Sharp,"{'00029-01': Decimal('1'), '00066-12': Decimal('1'), '00042-12': Decimal('1'), '00057-05': Decimal('1'), '00078-05': Decimal('1'), '00051-01': Decimal('1')}"
+Bold,"{'00079-02': Decimal('1'), '00020-02': Decimal('1')}"
+Abrasive,{}
+Strident,{}
+Honky,"{'00020-03': Decimal('1'), '00069-03': Decimal('1'), '00046-09': Decimal('1'), '00043-09': Decimal('1'), '00053-03': Decimal('1'), '00078-04': Decimal('1'), '00054-02': Decimal('1'), '00051-12': Decimal('1'), '00028-11': Decimal('1'), '00005-04': Decimal('1'), '00002-03': Decimal('1'), '00007-11': Decimal('1'), '00045-12': Decimal('1'), '00062-02': Decimal('1')}"
+Biting,"{'00034-06': Decimal('1'), '00010-09': Decimal('1'), '00017-06': Decimal('1'), '00035-09': Decimal('1')}"
+Twangy,"{'00008-06': Decimal('1'), '00078-11': Decimal('1'), '00048-07': Decimal('1'), '00007-08': Decimal('1'), '00019-08': Decimal('1'), '00022-05': Decimal('1'), '00004-06': Decimal('1'), '00004-07': Decimal('1'), '00026-05': Decimal('2'), '00010-11': Decimal('1'), '00079-05': Decimal('1')}"
+Ringing,"{'00065-06': Decimal('1'), '00032-03': Decimal('1'), '00022-03': Decimal('1'), '00017-06': Decimal('1'), '00066-06': Decimal('1'), '00077-06': Decimal('1')}"
+Airy,"{'00065-12': Decimal('1'), '00076-12': Decimal('1'), '00014-08': Decimal('1'), '00038-08': Decimal('1'), '00025-12': Decimal('1'), '00061-12': Decimal('1')}"
+Smooth,"{'00007-08': Decimal('1'), '00031-08': Decimal('1'), '00077-09': Decimal('1'), '00073-10': Decimal('1'), '00020-09': Decimal('1'), '00045-11': Decimal('1'), '00017-10': Decimal('1'), '00017-11': Decimal('1')}"
+Punchy,"{'00031-02': Decimal('1'), '00079-02': Decimal('1'), '00035-07': Decimal('1'), '00068-07': Decimal('1')}"
+Compressed,{}
+Muffled,"{'00035-07': Decimal('1'), '00076-07': Decimal('1')}"
+Full,"{'00042-12': Decimal('1'), '00049-09': Decimal('1'), '00056-07': Decimal('1'), '00043-09': Decimal('1'), '00021-12': Decimal('1'), '00014-12': Decimal('1'), '00034-12': Decimal('1'), '00069-07': Decimal('1')}"
+Harsh,"{'00042-01': Decimal('1'), '00029-01': Decimal('1'), '00009-06': Decimal('1'), '00046-08': Decimal('1'), '00046-05': Decimal('1'), '00078-08': Decimal('1'), '00050-05': Decimal('1'), '00056-11': Decimal('1'), '00075-06': Decimal('1'), '00061-11': Decimal('1')}"
+Shimmery,"{'00078-12': Decimal('1'), '00058-09': Decimal('1'), '00039-11': Decimal('1'), '00003-11': Decimal('1'), '00019-09': Decimal('1'), '00024-03': Decimal('1'), '00059-03': Decimal('1'), '00025-12': Decimal('1')}"
