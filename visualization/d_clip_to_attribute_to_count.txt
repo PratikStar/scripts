@@ -1,0 +1,2578 @@
+{
+    '00018-10':
+    {
+        'Abrasive': 1,
+        'Aggressive': 1,
+        'Artificial': 1,
+        'Chunky': 1,
+        'Choked': 1,
+        'Buzzy': 1,
+        'Brutal': 1,
+        'Crunchy': 1,
+        'Harsh': 1,
+        'Fuzzy': 1,
+        'Piercing': 1,
+        'Scooped': 1
+    },
+    '00058-02':
+    {
+        'Soft': 1,
+        'Smooth': 1,
+        'Brittle': 1,
+        'Crunchy': 1
+    },
+    '00066-01':
+    {
+        'Bright': 1,
+        'Crunchy': 1,
+        'Brittle': 1,
+        'Buzzy': 1,
+        'Fizzy': 1,
+        'Sizzling': 1,
+        'Noisy': 1,
+        'Fuzzy': 1,
+        'Gritty': 1,
+        'Harsh': 1
+    },
+    '00039-02':
+    {
+        'Harsh': 1,
+        'Sizzling': 1,
+        'Full': 1,
+        'Dark': 1,
+        'Lush': 1,
+        'Ringing': 1,
+        'Saturated': 1
+    },
+    '00015-11':
+    {
+        'Thin': 1
+    },
+    '00024-05':
+    {
+        'Thin': 1,
+        'Crunchy': 1,
+        'Compressed': 1,
+        'Sharp': 1,
+        'Shimmery': 1,
+        'Hollow': 1
+    },
+    '00058-05':
+    {
+        'Sizzling': 1,
+        'Scooped': 1,
+        'Sharp': 1,
+        'Searing': 1,
+        'Thin': 1,
+        'Tight': 1
+    },
+    '00032-06':
+    {
+        'Balanced': 1,
+        'Bassy': 1,
+        'Crunchy': 1,
+        'Smooth': 1
+    },
+    '00022-05':
+    {
+        'Crunchy': 1,
+        'Dirty': 1,
+        'Crisp': 1,
+        'Buzzy': 1
+    },
+    '00057-06':
+    {
+        'Twangy': 1
+    },
+    '00021-05':
+    {
+        'Bright': 1,
+        'Articulate': 1,
+        'Open': 1,
+        'Muted': 1,
+        'Twangy': 1
+    },
+    '00074-01':
+    {
+        'Bell-like': 1,
+        'Bright': 1,
+        'Fuzzy': 1,
+        'Raspy': 1,
+        'Fizzy': 1
+    },
+    '00015-02':
+    {
+        'Balanced': 1,
+        'Sharp': 1,
+        'Open': 1,
+        'Bright': 1
+    },
+    '00062-02':
+    {
+        'Round': 1,
+        'Hollow': 1
+    },
+    '00068-01':
+    {
+        'Airy': 1,
+        'Open': 1,
+        'Twangy': 1,
+        'Pure': 1,
+        'Raw': 1,
+        'Clean': 1,
+        'Clear': 1
+    },
+    '00050-04':
+    {
+        'Muffled': 1,
+        'Hollow': 1,
+        'Ringing': 1,
+        'Round': 1,
+        'Nasal': 1,
+        'Muted': 1
+    },
+    '00033-08':
+    {
+        'Distorted': 2,
+        'Scooped': 1,
+        'Raw': 1,
+        'Honky': 1,
+        'Dark': 1,
+        'Dry': 1,
+        'Compressed': 1,
+        'Twangy': 1
+    },
+    '00005-09':
+    {
+        'Bright': 1
+    },
+    '00019-07':
+    {
+        'Nasal': 1,
+        'Round': 1
+    },
+    '00014-04':
+    {
+        'Hollow': 1,
+        'Vocal': 1,
+        'Bell-like': 1
+    },
+    '00056-11':
+    {
+        'Bright': 1
+    },
+    '00047-03':
+    {
+        'Fuzzy': 1,
+        'Buzzy': 1,
+        'Gritty': 1,
+        'Dark': 1
+    },
+    '00030-10':
+    {
+        'Thin': 1,
+        'Nasal': 1,
+        'Fizzy': 1
+    },
+    '00052-10':
+    {
+        'Brilliant': 1,
+        'Chimey': 1,
+        'Sizzling': 1
+    },
+    '00070-05':
+    {
+        'Distorted': 1,
+        'Dirty': 1,
+        'Dark': 1,
+        'Full': 1,
+        'Thick': 1,
+        'Punchy': 1,
+        'Fuzzy': 1,
+        'Fizzy': 1
+    },
+    '00025-02':
+    {
+        'Muddy': 1,
+        'Flat': 1
+    },
+    '00055-02':
+    {
+        'Saturated': 1,
+        'Crunchy': 1,
+        'Articulate': 1,
+        'Detailed': 1,
+        'Bold': 1,
+        'Raw': 1,
+        'Searing': 1
+    },
+    '00024-08':
+    {
+        'Compressed': 1,
+        'Full': 1,
+        'Thick': 1
+    },
+    '00077-09':
+    {
+        'Abrasive': 1,
+        'Harsh': 1,
+        'Heavy': 1
+    },
+    '00056-10':
+    {
+        'Dark': 1
+    },
+    '00055-08':
+    {
+        'Muted': 1,
+        'Flat': 1,
+        'Buzzy': 1,
+        'Chewy': 1,
+        'Grunting': 1
+    },
+    '00029-01':
+    {
+        'Fizzy': 1,
+        'Twangy': 1,
+        'Tinny': 1,
+        'Harsh': 1
+    },
+    '00054-10':
+    {
+        'Fuzzy': 1,
+        'Saturated': 1,
+        'Fizzy': 1
+    },
+    '00066-10':
+    {
+        'Airy': 1,
+        'Edgy': 1
+    },
+    '00045-04':
+    {
+        'Compressed': 1
+    },
+    '00003-11':
+    {
+        'Aggressive': 1,
+        'Loose': 1,
+        'Distorted': 2,
+        'Gritty': 1,
+        'Compressed': 1,
+        'Chug': 1
+    },
+    '00039-11':
+    {
+        'Crunchy': 1,
+        'Distorted': 1
+    },
+    '00026-03':
+    {
+        'Fuzzy': 1,
+        'Thick': 1,
+        'Nasal': 1
+    },
+    '00064-12':
+    {
+        'Bassy': 1
+    },
+    '00006-07':
+    {
+        'Nasal': 1,
+        'Focused': 1,
+        'Searing': 1,
+        'Scooped': 1,
+        'Shrill': 1
+    },
+    '00034-07':
+    {
+        'Aggressive': 1,
+        'Jangly': 1,
+        'Gritty': 1
+    },
+    '00017-04':
+    {
+        'Shrill': 1
+    },
+    '00012-08':
+    {
+        'Tight': 1,
+        'Articulate': 1,
+        'Chug': 1,
+        'Chunky': 1
+    },
+    '00042-02':
+    {
+        'Crunchy': 1,
+        'Dark': 1,
+        'Dirty': 1,
+        'Distorted': 1,
+        'Edgy': 1,
+        'Artificial': 1,
+        'Sharp': 1,
+        'Fizzy': 1
+    },
+    '00004-01':
+    {
+        'Ringing': 1,
+        'Hairy': 1,
+        'Distorted': 1
+    },
+    '00057-08':
+    {
+        'Heavy': 1,
+        'Crunchy': 1,
+        'Distorted': 1,
+        'Huge': 1,
+        'Hissing': 1,
+        'Throaty': 1
+    },
+    '00054-09':
+    {
+        'Crushing': 1,
+        'Aggressive': 1,
+        'Abrasive': 1,
+        'Bassy': 1,
+        'Boomy': 1,
+        'Dirty': 1,
+        'Distorted': 1,
+        'Muffled': 1,
+        'Muddy': 1
+    },
+    '00063-02':
+    {
+        'Hollow': 1,
+        'Mellow': 1
+    },
+    '00001-10':
+    {
+        'Focused': 1,
+        'Balanced': 1,
+        'Muted': 1,
+        'Nasal': 1,
+        'Mellow': 1,
+        'Dynamic': 1,
+        'Soft': 1
+    },
+    '00074-02':
+    {
+        'Warm': 1
+    },
+    '00004-04':
+    {
+        'Ringing': 1
+    },
+    '00069-03':
+    {
+        'Dark': 1,
+        'Dull': 1,
+        'Hollow': 1
+    },
+    '00003-07':
+    {
+        'Twangy': 1,
+        'Thin': 1,
+        'Searing': 1,
+        'Shrill': 1,
+        'Bright': 1
+    },
+    '00022-09':
+    {
+        'Biting': 1,
+        'Compressed': 1,
+        'Sizzling': 1
+    },
+    '00052-01':
+    {
+        'Piercing': 1
+    },
+    '00079-11':
+    {
+        'Compressed': 2,
+        'Distorted': 1,
+        'Crunchy': 2,
+        'Noisy': 1,
+        'Saturated': 1,
+        'Hairy': 1,
+        'Dark': 1,
+        'Nasal': 1,
+        'Scooped': 1,
+        'Muted': 1
+    },
+    '00059-11':
+    {
+        'Tight': 1,
+        'Heavy': 1
+    },
+    '00003-02':
+    {
+        'Abrasive': 1,
+        'Thick': 2,
+        'Gritty': 1,
+        'Fat': 1,
+        'Full': 1,
+        'Crunchy': 1
+    },
+    '00009-07':
+    {
+        'Artificial': 1,
+        'Honky': 1,
+        'Compressed': 1,
+        'Saturated': 1,
+        'Thick': 1
+    },
+    '00027-03':
+    {
+        'Hairy': 1,
+        'Harsh': 1,
+        'Brittle': 1
+    },
+    '00008-01':
+    {
+        'Distorted': 1,
+        'Loose': 1,
+        'Saturated': 1,
+        'Clear': 1
+    },
+    '00071-09':
+    {
+        'Brutal': 1,
+        'Dark': 1,
+        'Anemic': 1,
+        'Choked': 1,
+        'Dry': 1,
+        'Hollow': 1
+    },
+    '00070-10':
+    {
+        'Scooped': 1,
+        'Muted': 1,
+        'Boxy': 1,
+        'Dull': 1,
+        'Muffled': 1
+    },
+    '00023-05':
+    {
+        'Piercing': 1,
+        'Noisy': 1
+    },
+    '00044-09':
+    {
+        'Fuzzy': 1,
+        'Flabby': 1
+    },
+    '00044-03':
+    {
+        'Dirty': 1,
+        'Distorted': 1,
+        'Detailed': 1,
+        'Bright': 1,
+        'Chimey': 1,
+        'Clear': 1,
+        'Liquidy': 1,
+        'Dynamic': 1,
+        'Vibrant': 1,
+        'Gritty': 1
+    },
+    '00010-12':
+    {
+        'Piercing': 1,
+        'Punchy': 1
+    },
+    '00049-06':
+    {
+        'Refined': 1
+    },
+    '00024-12':
+    {
+        'Muffled': 1
+    },
+    '00058-04':
+    {
+        'Abrasive': 1,
+        'Aggressive': 1,
+        'Biting': 1,
+        'Buzzy': 1
+    },
+    '00058-01':
+    {
+        'Full': 1,
+        'Hairy': 1
+    },
+    '00048-09':
+    {
+        'Muffled': 1,
+        'Flat': 1
+    },
+    '00012-05':
+    {
+        'Round': 1
+    },
+    '00038-08':
+    {
+        'Scooped': 1
+    },
+    '00053-04':
+    {
+        'Crunchy': 1,
+        'Clean': 1,
+        'Bassy': 1,
+        'Dark': 1,
+        'Muddy': 1,
+        'Raw': 1,
+        'Round': 1,
+        'Thick': 1,
+        'Distorted': 1,
+        'Compressed': 1,
+        'Cutting': 1,
+        'Piercing': 1,
+        'Punchy': 1,
+        'Shrill': 1
+    },
+    '00073-04':
+    {
+        'Distorted': 1,
+        'Dirty': 1,
+        'Full': 1
+    },
+    '00013-09':
+    {
+        'Buzzy': 1,
+        'Gritty': 1
+    },
+    '00024-02':
+    {
+        'Saturated': 1,
+        'Hairy': 2,
+        'Crunchy': 1,
+        'Fizzy': 1,
+        'Compressed': 1,
+        'Boomy': 1
+    },
+    '00004-03':
+    {
+        'Fuzzy': 1
+    },
+    '00016-12':
+    {
+        'Nasal': 1,
+        'Anemic': 1,
+        'Grind': 1
+    },
+    '00029-03':
+    {
+        'Hissing': 1,
+        'Hairy': 1
+    },
+    '00056-06':
+    {
+        'Round': 1,
+        'Twangy': 1
+    },
+    '00024-10':
+    {
+        'Bold': 1
+    },
+    '00059-02':
+    {
+        'Flabby': 1,
+        'Boomy': 1,
+        'Boxy': 1,
+        'Compressed': 1,
+        'Muddy': 1,
+        'Muffled': 1
+    },
+    '00002-06':
+    {
+        'Bold': 1,
+        'Boomy': 1,
+        'Fat': 1
+    },
+    '00051-07':
+    {
+        'Round': 1,
+        'Articulate': 1
+    },
+    '00056-09':
+    {
+        'Dull': 1
+    },
+    '00002-11':
+    {
+        'Chug': 1,
+        'Chewy': 1
+    },
+    '00037-08':
+    {
+        'Aggressive': 1,
+        'Fuzzy': 1,
+        'Hairy': 1,
+        'Loose': 1
+    },
+    '00073-05':
+    {
+        'Fizzy': 1,
+        'Thin': 1
+    },
+    '00078-03':
+    {
+        'Loose': 1,
+        'Dark': 1,
+        'Hollow': 1
+    },
+    '00061-07':
+    {
+        'Scooped': 1,
+        'Compressed': 1,
+        'Dirty': 1,
+        'Heavy': 1,
+        'Saturated': 1,
+        'Thin': 1,
+        'Shrill': 1,
+        'Twangy': 1,
+        'Fizzy': 1
+    },
+    '00050-01':
+    {
+        'Shimmery': 1,
+        'Vintage': 1,
+        'Edgy': 1
+    },
+    '00040-01':
+    {
+        'Ringing': 1,
+        'Muffled': 1
+    },
+    '00037-02':
+    {
+        'Airy': 1,
+        'Buzzy': 1,
+        'Distorted': 1,
+        'Brittle': 1,
+        'Sharp': 1,
+        'Searing': 1,
+        'Piercing': 1,
+        'Harsh': 1
+    },
+    '00068-03':
+    {
+        'Flat': 1,
+        'Choked': 1,
+        'Distorted': 1,
+        'Harsh': 1,
+        'Fizzy': 1
+    },
+    '00026-11':
+    {
+        'Nasal': 1,
+        'Muffled': 1,
+        'Dry': 1,
+        'Anemic': 1,
+        'Tight': 1
+    },
+    '00007-12':
+    {
+        'Crunchy': 1,
+        'Muted': 1,
+        'Chug': 1,
+        'Saturated': 1
+    },
+    '00072-05':
+    {
+        'Searing': 1
+    },
+    '00039-06':
+    {
+        'Fizzy': 1,
+        'Honky': 1
+    },
+    '00033-12':
+    {
+        'Clean': 2,
+        'Dynamic': 1,
+        'Twangy': 1
+    },
+    '00027-01':
+    {
+        'Bright': 1
+    },
+    '00056-01':
+    {
+        'Hairy': 1,
+        'Saturated': 1,
+        'Hollow': 1
+    },
+    '00032-07':
+    {
+        'Clean': 1,
+        'Clear': 1
+    },
+    '00029-10':
+    {
+        'Loose': 1,
+        'Fuzzy': 1
+    },
+    '00031-06':
+    {
+        'Airy': 1,
+        'Anemic': 1,
+        'Boomy': 1,
+        'Icepicky': 1,
+        'Shrill': 1
+    },
+    '00034-08':
+    {
+        'Thick': 1,
+        'Fuzzy': 1
+    },
+    '00012-07':
+    {
+        'Bright': 1
+    },
+    '00066-08':
+    {
+        'Saturated': 1,
+        'Fuzzy': 1,
+        'Muddy': 1,
+        'Hairy': 1
+    },
+    '00012-09':
+    {
+        'Punchy': 1,
+        'Warm': 1,
+        'Vocal': 1,
+        'Muffled': 1
+    },
+    '00045-02':
+    {
+        'Muffled': 1,
+        'Nasal': 1,
+        'Noisy': 1,
+        'Flat': 1,
+        'Hissing': 1,
+        'Raw': 1,
+        'Harsh': 1,
+        'Distorted': 1,
+        'Shimmery': 1,
+        'Focused': 1,
+        'Buzzy': 1,
+        'Open': 1
+    },
+    '00072-04':
+    {
+        'Crunchy': 1,
+        'Throaty': 1,
+        'Velvety': 1
+    },
+    '00010-01':
+    {
+        'Searing': 1
+    },
+    '00033-11':
+    {
+        'Aggressive': 1,
+        'Big': 1,
+        'Bold': 1,
+        'Heavy': 1,
+        'Throaty': 1,
+        'Thick': 1
+    },
+    '00048-12':
+    {
+        'Distorted': 1,
+        'Big': 1,
+        'Bright': 1,
+        'Focused': 1,
+        'Refined': 1,
+        'Saturated': 1,
+        'Sparkly': 1
+    },
+    '00021-08':
+    {
+        'Fuzzy': 1,
+        'Distorted': 1,
+        'Dark': 1,
+        'Scooped': 1,
+        'Thick': 1
+    },
+    '00037-04':
+    {
+        'Muffled': 1,
+        'Loose': 1
+    },
+    '00064-08':
+    {
+        'Gritty': 1,
+        'Grind': 1,
+        'Crushing': 1,
+        'Brutal': 1,
+        'Muffled': 1
+    },
+    '00049-12':
+    {
+        'Buzzy': 1,
+        'Muffled': 1
+    },
+    '00020-02':
+    {
+        'Abrasive': 1,
+        'Fizzy': 1,
+        'Noisy': 1,
+        'Crunchy': 1,
+        'Vintage': 1
+    },
+    '00053-01':
+    {
+        'Compressed': 1,
+        'Thin': 1,
+        'Ringing': 1,
+        'Bell-like': 1,
+        'Round': 1
+    },
+    '00061-10':
+    {
+        'Dirty': 1
+    },
+    '00065-07':
+    {
+        'Fizzy': 1,
+        'Throaty': 1,
+        'Fuzzy': 1,
+        'Distorted': 1
+    },
+    '00054-05':
+    {
+        'Smokey': 1,
+        'Light': 1,
+        'Dirty': 1
+    },
+    '00055-05':
+    {
+        'Raw': 1,
+        'Vintage': 1
+    },
+    '00070-11':
+    {
+        'Muffled': 1,
+        'Muted': 1,
+        'Buzzy': 1
+    },
+    '00020-12':
+    {
+        'Aggressive': 1,
+        'Tight': 1,
+        'Articulate': 1
+    },
+    '00003-12':
+    {
+        'Throaty': 1
+    },
+    '00035-04':
+    {
+        'Balanced': 1,
+        'Clean': 1
+    },
+    '00009-04':
+    {
+        'Clear': 1,
+        'Dynamic': 1
+    },
+    '00062-07':
+    {
+        'Crunchy': 1
+    },
+    '00017-07':
+    {
+        'Bright': 1,
+        'Compressed': 1,
+        'Gritty': 1
+    },
+    '00005-05':
+    {
+        'Airy': 1,
+        'Articulate': 1,
+        'Clear': 1,
+        'Chimey': 1,
+        'Bright': 1,
+        'Twangy': 1,
+        'Raspy': 1,
+        'Saturated': 1
+    },
+    '00051-03':
+    {
+        'Muffled': 1,
+        'Muted': 1,
+        'Nasal': 1,
+        'Soft': 1,
+        'Flat': 1
+    },
+    '00061-02':
+    {
+        'Bright': 1,
+        'Saturated': 1,
+        'Metallic': 1
+    },
+    '00009-02':
+    {
+        'Shrill': 1,
+        'Bright': 1,
+        'Muffled': 1
+    },
+    '00004-09':
+    {
+        'Hairy': 1,
+        'Chug': 1,
+        'Grind': 1,
+        'Flabby': 1
+    },
+    '00041-04':
+    {
+        'Ringing': 1,
+        'Round': 1,
+        'Full': 1
+    },
+    '00008-11':
+    {
+        'Raw': 1
+    },
+    '00063-09':
+    {
+        'Muffled': 1,
+        'Muted': 1,
+        'Round': 1,
+        'Thick': 1
+    },
+    '00077-08':
+    {
+        'Fuzzy': 1,
+        'Balanced': 1
+    },
+    '00070-12':
+    {
+        'Thin': 1
+    },
+    '00007-06':
+    {
+        'Brittle': 1
+    },
+    '00055-04':
+    {
+        'Smooth': 1,
+        'Round': 1
+    },
+    '00080-07':
+    {
+        'Thin': 1
+    },
+    '00030-06':
+    {
+        'Thin': 1,
+        'Vintage': 1
+    },
+    '00044-04':
+    {
+        'Articulate': 1,
+        'Distorted': 1,
+        'Big': 1,
+        'Chimey': 1,
+        'Twangy': 1,
+        'Clean': 1,
+        'Clear': 1,
+        'Brilliant': 1,
+        'Thin': 1,
+        'Brutal': 1,
+        'Crushing': 1,
+        'Raspy': 1,
+        'Raw': 1
+    },
+    '00047-11':
+    {
+        'Sharp': 1
+    },
+    '00019-08':
+    {
+        'Distorted': 1,
+        'Grind': 1
+    },
+    '00030-12':
+    {
+        'Thick': 1,
+        'Bold': 1,
+        'Gritty': 1,
+        'Scooped': 1,
+        'Nasal': 1,
+        'Hollow': 1,
+        'Raw': 1
+    },
+    '00013-10':
+    {
+        'Jangly': 1,
+        'Buzzy': 1,
+        'Scooped': 1
+    },
+    '00072-08':
+    {
+        'Brittle': 1,
+        'Compressed': 1,
+        'Dirty': 1,
+        'Distorted': 1,
+        'Flat': 1
+    },
+    '00046-09':
+    {
+        'Thick': 1,
+        'Saturated': 1
+    },
+    '00022-08':
+    {
+        'Thick': 1,
+        'Full': 1,
+        'Distorted': 1
+    },
+    '00065-04':
+    {
+        'Articulate': 1
+    },
+    '00049-11':
+    {
+        'Tight': 1,
+        'Articulate': 1,
+        'Biting': 1,
+        'Clear': 1,
+        'Refined': 1
+    },
+    '00046-05':
+    {
+        'Full': 1,
+        'Sparkly': 1
+    },
+    '00034-04':
+    {
+        'Focused': 1
+    },
+    '00035-07':
+    {
+        'Tinny': 1,
+        'Nasal': 1
+    },
+    '00016-03':
+    {
+        'Crisp': 1,
+        'Buzzy': 1,
+        'Brilliant': 1,
+        'Searing': 1
+    },
+    '00077-10':
+    {
+        'Abrasive': 1,
+        'Boomy': 1,
+        'Distorted': 1,
+        'Noisy': 1
+    },
+    '00079-01':
+    {
+        'Shimmery': 1
+    },
+    '00068-02':
+    {
+        'Muffled': 1
+    },
+    '00069-01':
+    {
+        'Vocal': 1
+    },
+    '00070-04':
+    {
+        'Shimmery': 1,
+        'Twangy': 1,
+        'Warm': 1
+    },
+    '00009-06':
+    {
+        'Aggressive': 1,
+        'Vintage': 1,
+        'Warm': 1
+    },
+    '00046-11':
+    {
+        'Crushing': 1,
+        'Aggressive': 1,
+        'Sharp': 1,
+        'Huge': 1,
+        'Brutal': 1,
+        'Chewy': 1,
+        'Metallic': 1,
+        'Saturated': 1,
+        'Heavy': 1,
+        'Compressed': 1,
+        'Chug': 1,
+        'Grind': 1,
+        'Distorted': 1
+    },
+    '00073-03':
+    {
+        'Buzzy': 1,
+        'Dark': 1,
+        'Fizzy': 1
+    },
+    '00039-03':
+    {
+        'Buzzy': 1,
+        'Distorted': 1,
+        'Edgy': 1,
+        'Full': 1,
+        'Pure': 1
+    },
+    '00078-04':
+    {
+        'Nasal': 1
+    },
+    '00063-05':
+    {
+        'Warm': 1,
+        'Muffled': 1
+    },
+    '00035-06':
+    {
+        'Anemic': 1
+    },
+    '00028-12':
+    {
+        'Chug': 1,
+        'Compressed': 1,
+        'Tight': 1
+    },
+    '00025-03':
+    {
+        'Clear': 1,
+        'Crisp': 1,
+        'Clean': 1,
+        'Brilliant': 1,
+        'Pure': 1,
+        'Rich': 1,
+        'Edgy': 1
+    },
+    '00073-09':
+    {
+        'Aggressive': 1,
+        'Crunchy': 1
+    },
+    '00043-07':
+    {
+        'Shrill': 1
+    },
+    '00013-07':
+    {
+        'Punchy': 1,
+        'Distorted': 1,
+        'Aggressive': 1,
+        'Dynamic': 1,
+        'Twangy': 1,
+        'Thick': 1
+    },
+    '00036-05':
+    {
+        'Boomy': 1,
+        'Bell-like': 1,
+        'Clean': 1,
+        'Brittle': 1,
+        'Sterile': 1,
+        'Tight': 1,
+        'Twangy': 1,
+        'Tinny': 1,
+        'Nasal': 1,
+        'Muffled': 1
+    },
+    '00043-10':
+    {
+        'Fuzzy': 1,
+        'Hairy': 1,
+        'Heavy': 1
+    },
+    '00019-01':
+    {
+        'Bell-like': 1,
+        'Balanced': 1,
+        'Round': 1,
+        'Ringing': 1
+    },
+    '00006-01':
+    {
+        'Bell-like': 1,
+        'Ringing': 1
+    },
+    '00077-05':
+    {
+        'Muddy': 1,
+        'Muffled': 1,
+        'Tight': 1,
+        'Flat': 1
+    },
+    '00067-12':
+    {
+        'Thin': 1,
+        'Tinny': 1,
+        'Twangy': 1,
+        'Dull': 1
+    },
+    '00042-08':
+    {
+        'Tight': 1,
+        'Dry': 1,
+        'Clean': 1
+    },
+    '00020-06':
+    {
+        'Articulate': 1,
+        'Dry': 1,
+        'Round': 1
+    },
+    '00011-04':
+    {
+        'Crunchy': 1,
+        'Bright': 1,
+        'Abrasive': 1,
+        'Distorted': 1
+    },
+    '00053-12':
+    {
+        'Chug': 1,
+        'Aggressive': 1,
+        'Chunky': 1,
+        'Distorted': 1,
+        'Saturated': 1
+    },
+    '00065-01':
+    {
+        'Sharp': 1,
+        'Shimmery': 1
+    },
+    '00053-07':
+    {
+        'Muted': 1,
+        'Round': 1,
+        'Muffled': 1,
+        'Fuzzy': 1
+    },
+    '00051-06':
+    {
+        'Shrill': 1
+    },
+    '00038-01':
+    {
+        'Bright': 1,
+        'Brilliant': 1,
+        'Brittle': 1
+    },
+    '00059-06':
+    {
+        'Round': 1,
+        'Refined': 1
+    },
+    '00033-03':
+    {
+        'Dull': 1,
+        'Honky': 1,
+        'Muffled': 1
+    },
+    '00028-07':
+    {
+        'Artificial': 1
+    },
+    '00016-06':
+    {
+        'Thick': 1,
+        'Tight': 1
+    },
+    '00066-04':
+    {
+        'Balanced': 1,
+        'Buzzy': 1,
+        'Thick': 1
+    },
+    '00008-12':
+    {
+        'Cutting': 1
+    },
+    '00011-03':
+    {
+        'Dark': 1
+    },
+    '00014-03':
+    {
+        'Saturated': 1,
+        'Clean': 1,
+        'Icepicky': 1,
+        'Jangly': 1
+    },
+    '00010-11':
+    {
+        'Thick': 1
+    },
+    '00045-12':
+    {
+        'Sharp': 1
+    },
+    '00075-08':
+    {
+        'Muted': 1,
+        'Dull': 1
+    },
+    '00020-11':
+    {
+        'Throaty': 1
+    },
+    '00045-03':
+    {
+        'Muffled': 1,
+        'Crunchy': 1,
+        'Cutting': 1,
+        'Detailed': 1,
+        'Distorted': 1,
+        'Clear': 1,
+        'Compressed': 1,
+        'Shrill': 1,
+        'Nasal': 1,
+        'Vocal': 1
+    },
+    '00026-09':
+    {
+        'Scooped': 1,
+        'Chunky': 1
+    },
+    '00019-12':
+    {
+        'Aggressive': 1
+    },
+    '00054-08':
+    {
+        'Boomy': 1,
+        'Muffled': 1
+    },
+    '00080-10':
+    {
+        'Buzzy': 1,
+        'Scooped': 1,
+        'Thin': 1,
+        'Mellow': 1
+    },
+    '00022-10':
+    {
+        'Thick': 1,
+        'Heavy': 1,
+        'Chunky': 1
+    },
+    '00011-10':
+    {
+        'Dirty': 1,
+        'Thumping': 1,
+        'Distorted': 1
+    },
+    '00011-09':
+    {
+        'Hollow': 1
+    },
+    '00041-10':
+    {
+        'Aggressive': 1,
+        'Loose': 1
+    },
+    '00055-06':
+    {
+        'Bright': 1
+    },
+    '00018-12':
+    {
+        'Gritty': 1,
+        'Fizzy': 1
+    },
+    '00013-01':
+    {
+        'Brittle': 1,
+        'Airy': 1,
+        'Boomy': 1,
+        'Clean': 1,
+        'Cutting': 1,
+        'Twangy': 1,
+        'Vibrant': 1,
+        'Ringing': 1,
+        'Jangly': 1
+    },
+    '00044-06':
+    {
+        'Shrill': 1
+    },
+    '00050-10':
+    {
+        'Distorted': 1,
+        'Dirty': 1,
+        'Thick': 1,
+        'Full': 1
+    },
+    '00003-01':
+    {
+        'Dynamic': 1,
+        'Bright': 1,
+        'Clean': 1
+    },
+    '00026-02':
+    {
+        'Bright': 1,
+        'Crunchy': 1,
+        'Twangy': 1,
+        'Searing': 1,
+        'Sharp': 1,
+        'Sizzling': 1,
+        'Fizzy': 1,
+        'Crisp': 1,
+        'Biting': 1
+    },
+    '00014-08':
+    {
+        'Thumping': 1,
+        'Dirty': 1
+    },
+    '00055-03':
+    {
+        'Abrasive': 1,
+        'Aggressive': 1,
+        'Big': 1,
+        'Boomy': 1,
+        'Compressed': 1,
+        'Crunchy': 1,
+        'Brittle': 1,
+        'Chimey': 1,
+        'Gritty': 1,
+        'Jangly': 1,
+        'Sharp': 1
+    },
+    '00080-08':
+    {
+        'Hollow': 1
+    },
+    '00018-04':
+    {
+        'Distorted': 1,
+        'Dirty': 1,
+        'Dark': 1,
+        'Crunchy': 1,
+        'Boomy': 1,
+        'Balanced': 1,
+        'Articulate': 1,
+        'Glassy': 1,
+        'Jangly': 1,
+        'Muffled': 1
+    },
+    '00046-12':
+    {
+        'Fuzzy': 1,
+        'Brittle': 1,
+        'Muted': 1,
+        'Scooped': 1
+    },
+    '00037-09':
+    {
+        'Honky': 1,
+        'Choked': 1
+    },
+    '00074-08':
+    {
+        'Loose': 1,
+        'Buzzy': 1,
+        'Fat': 1,
+        'Round': 1
+    },
+    '00051-12':
+    {
+        'Compressed': 1
+    },
+    '00073-12':
+    {
+        'Buzzy': 1,
+        'Fizzy': 1,
+        'Focused': 1,
+        'Gritty': 1,
+        'Muddy': 1
+    },
+    '00021-01':
+    {
+        'Searing': 1,
+        'Articulate': 1,
+        'Bell-like': 1,
+        'Clear': 1,
+        'Chimey': 1,
+        'Glassy': 1,
+        'Ringing': 1,
+        'Twangy': 1,
+        'Sharp': 1
+    },
+    '00005-11':
+    {
+        'Aggressive': 1,
+        'Tight': 1,
+        'Chunky': 1,
+        'Chug': 1
+    },
+    '00022-12':
+    {
+        'Muddy': 1,
+        'Muffled': 1,
+        'Muted': 1,
+        'Dull': 1,
+        'Flabby': 1,
+        'Thin': 1,
+        'Compressed': 1
+    },
+    '00032-10':
+    {
+        'Distorted': 1,
+        'Fuzzy': 1,
+        'Thick': 1
+    },
+    '00065-03':
+    {
+        'Muffled': 1,
+        'Muddy': 1
+    },
+    '00004-08':
+    {
+        'Buzzy': 1
+    },
+    '00021-06':
+    {
+        'Tinny': 1,
+        'Bright': 1,
+        'Jangly': 1,
+        'Dry': 1,
+        'Clear': 1
+    },
+    '00003-10':
+    {
+        'Muffled': 1,
+        'Muddy': 1,
+        'Round': 1
+    },
+    '00076-10':
+    {
+        'Dark': 1,
+        'Full': 1,
+        'Dry': 1
+    },
+    '00005-06':
+    {
+        'Bright': 2,
+        'Twangy': 1,
+        'Tinny': 1,
+        'Jangly': 1
+    },
+    '00074-11':
+    {
+        'Crunchy': 1,
+        'Boomy': 1
+    },
+    '00013-05':
+    {
+        'Twangy': 1,
+        'Honky': 1,
+        'Boxy': 1
+    },
+    '00027-08':
+    {
+        'Dirty': 1,
+        'Thumping': 1
+    },
+    '00045-09':
+    {
+        'Gritty': 1,
+        'Fuzzy': 1,
+        'Compressed': 2,
+        'Distorted': 1,
+        'Harsh': 1,
+        'Noisy': 1
+    },
+    '00019-11':
+    {
+        'Saturated': 1,
+        'Chug': 1,
+        'Boxy': 1
+    },
+    '00077-12':
+    {
+        'Dark': 1,
+        'Fuzzy': 1
+    },
+    '00011-06':
+    {
+        'Chewy': 1
+    },
+    '00008-08':
+    {
+        'Sharp': 1,
+        'Open': 1,
+        'Big': 1,
+        'Balanced': 1
+    },
+    '00005-02':
+    {
+        'Flat': 1,
+        'Compressed': 1,
+        'Smooth': 1
+    },
+    '00062-08':
+    {
+        'Aggressive': 1,
+        'Abrasive': 1,
+        'Biting': 1,
+        'Dark': 1,
+        'Distorted': 1,
+        'Chunky': 1,
+        'Loose': 1
+    },
+    '00031-12':
+    {
+        'Thick': 1,
+        'Chunky': 1,
+        'Tight': 1,
+        'Articulate': 1
+    },
+    '00022-03':
+    {
+        'Edgy': 1
+    },
+    '00057-05':
+    {
+        'Twangy': 1
+    },
+    '00076-06':
+    {
+        'Searing': 1,
+        'Sizzling': 1,
+        'Cutting': 1,
+        'Bright': 1
+    },
+    '00002-05':
+    {
+        'Bell-like': 1,
+        'Boomy': 1,
+        'Clear': 1,
+        'Detailed': 1,
+        'Crunchy': 1,
+        'Distorted': 1,
+        'Jangly': 1,
+        'Twangy': 1
+    },
+    '00036-06':
+    {
+        'Nasal': 1,
+        'Hollow': 1
+    },
+    '00041-09':
+    {
+        'Abrasive': 1
+    },
+    '00064-03':
+    {
+        'Boxy': 1,
+        'Anemic': 1,
+        'Dry': 1,
+        'Dull': 1
+    },
+    '00045-06':
+    {
+        'Compressed': 1,
+        'Saturated': 1,
+        'Fizzy': 1,
+        'Harsh': 1,
+        'Thin': 1,
+        'Shrill': 1
+    },
+    '00079-03':
+    {
+        'Fizzy': 1,
+        'Sterile': 1,
+        'Buzzy': 1
+    },
+    '00004-12':
+    {
+        'Aggressive': 1,
+        'Distorted': 1,
+        'Grind': 1,
+        'Gritty': 1
+    },
+    '00022-07':
+    {
+        'Dark': 1,
+        'Delicate': 1
+    },
+    '00063-03':
+    {
+        'Brittle': 1,
+        'Gritty': 1
+    },
+    '00070-07':
+    {
+        'Clear': 2,
+        'Clean': 1,
+        'Bright': 1,
+        'Open': 1,
+        'Rich': 1,
+        'Bold': 1,
+        'Big': 1,
+        'Balanced': 1,
+        'Cutting': 1,
+        'Focused': 1
+    },
+    '00032-11':
+    {
+        'Nasal': 1
+    },
+    '00071-05':
+    {
+        'Brilliant': 1,
+        'Thin': 1,
+        'Tight': 1
+    },
+    '00014-02':
+    {
+        'Ringing': 1,
+        'Round': 1,
+        'Vintage': 1
+    },
+    '00042-06':
+    {
+        'Fuzzy': 1
+    },
+    '00065-02':
+    {
+        'Compressed': 1
+    },
+    '00017-11':
+    {
+        'Hollow': 1
+    },
+    '00038-03':
+    {
+        'Fizzy': 1
+    },
+    '00023-10':
+    {
+        'Artificial': 1
+    },
+    '00064-11':
+    {
+        'Abrasive': 1,
+        'Crunchy': 1,
+        'Buzzy': 1,
+        'Shrill': 1,
+        'Thin': 1,
+        'Twangy': 1
+    },
+    '00076-04':
+    {
+        'Fuzzy': 1,
+        'Edgy': 1
+    },
+    '00012-10':
+    {
+        'Aggressive': 1,
+        'Chug': 1,
+        'Chunky': 1,
+        'Loose': 1,
+        'Thick': 1
+    },
+    '00036-04':
+    {
+        'Clean': 1,
+        'Flat': 1,
+        'Hissing': 1,
+        'Honky': 1,
+        'Nasal': 1,
+        'Distorted': 1,
+        'Strained': 1
+    },
+    '00042-11':
+    {
+        'Distorted': 1,
+        'Dirty': 1,
+        'Compressed': 1,
+        'Big': 1,
+        'Sharp': 1,
+        'Thick': 1,
+        'Throaty': 1,
+        'Raw': 1,
+        'Punchy': 1
+    },
+    '00008-04':
+    {
+        'Aggressive': 1,
+        'Crushing': 1,
+        'Fizzy': 1,
+        'Bold': 1,
+        'Vocal': 1,
+        'Warm': 1,
+        'Edgy': 1
+    },
+    '00048-04':
+    {
+        'Edgy': 1
+    },
+    '00076-05':
+    {
+        'Chewy': 1
+    },
+    '00018-03':
+    {
+        'Harsh': 1,
+        'Muffled': 1
+    },
+    '00021-02':
+    {
+        'Open': 1,
+        'Balanced': 1,
+        'Abrasive': 1,
+        'Warm': 1,
+        'Dark': 1,
+        'Dirty': 1,
+        'Compressed': 1,
+        'Full': 1
+    },
+    '00065-11':
+    {
+        'Muddy': 1
+    },
+    '00002-01':
+    {
+        'Raspy': 1,
+        'Noisy': 1
+    },
+    '00075-03':
+    {
+        'Buzzy': 1
+    },
+    '00028-10':
+    {
+        'Thick': 1
+    },
+    '00041-12':
+    {
+        'Boxy': 1,
+        'Boomy': 1,
+        'Dull': 1
+    },
+    '00025-01':
+    {
+        'Clear': 1
+    },
+    '00032-04':
+    {
+        'Abrasive': 1
+    },
+    '00008-10':
+    {
+        'Nasal': 1
+    },
+    '00065-10':
+    {
+        'Raw': 1,
+        'Loose': 1
+    },
+    '00053-06':
+    {
+        'Articulate': 1,
+        'Edgy': 1,
+        'Biting': 1
+    },
+    '00075-10':
+    {
+        'Aggressive': 1,
+        'Loose': 1
+    },
+    '00018-11':
+    {
+        'Muted': 1,
+        'Dark': 1,
+        'Raw': 1
+    },
+    '00037-12':
+    {
+        'Dirty': 1
+    },
+    '00006-08':
+    {
+        'Thumping': 1
+    },
+    '00001-05':
+    {
+        'Focused': 1
+    },
+    '00060-04':
+    {
+        'Gritty': 1
+    },
+    '00044-12':
+    {
+        'Scooped': 1
+    },
+    '00018-09':
+    {
+        'Bright': 1
+    },
+    '00072-10':
+    {
+        'Scooped': 1,
+        'Thick': 1,
+        'Distorted': 1,
+        'Dirty': 1
+    },
+    '00046-06':
+    {
+        'Dark': 1
+    },
+    '00070-02':
+    {
+        'Ringing': 1,
+        'Round': 1
+    },
+    '00043-01':
+    {
+        'Round': 1
+    },
+    '00003-04':
+    {
+        'Round': 1
+    },
+    '00043-04':
+    {
+        'Dry': 1,
+        'Open': 1,
+        'Sharp': 1,
+        'Round': 1
+    },
+    '00077-06':
+    {
+        'Fuzzy': 1
+    },
+    '00049-08':
+    {
+        'Distorted': 1,
+        'Articulate': 1,
+        'Huge': 1,
+        'Saturated': 1
+    },
+    '00048-08':
+    {
+        'Thick': 1,
+        'Big': 1,
+        'Thumping': 1,
+        'Dark': 1,
+        'Chunky': 1
+    },
+    '00052-02':
+    {
+        'Vocal': 1,
+        'Crunchy': 1,
+        'Round': 1,
+        'Warm': 1
+    },
+    '00041-02':
+    {
+        'Dull': 1,
+        'Chunky': 1,
+        'Muddy': 1,
+        'Boxy': 1
+    },
+    '00062-05':
+    {
+        'Buzzy': 1,
+        'Edgy': 1,
+        'Dull': 1,
+        'Fuzzy': 1
+    },
+    '00015-12':
+    {
+        'Distorted': 1,
+        'Abrasive': 1
+    },
+    '00068-10':
+    {
+        'Aggressive': 1,
+        'Biting': 1,
+        'Distorted': 1,
+        'Thick': 1
+    },
+    '00037-05':
+    {
+        'Dark': 1
+    },
+    '00040-05':
+    {
+        'Dirty': 1,
+        'Flabby': 1,
+        'Thick': 1,
+        'Vintage': 1,
+        'Warm': 1,
+        'Bassy': 1
+    },
+    '00044-08':
+    {
+        'Hissing': 1
+    },
+    '00063-11':
+    {
+        'Round': 1
+    },
+    '00072-07':
+    {
+        'Abrasive': 1
+    },
+    '00021-12':
+    {
+        'Scooped': 1,
+        'Saturated': 1,
+        'Distorted': 1
+    },
+    '00024-09':
+    {
+        'Abrasive': 1,
+        'Scooped': 1,
+        'Flabby': 1
+    },
+    '00028-09':
+    {
+        'Sharp': 1
+    },
+    '00056-12':
+    {
+        'Saturated': 1,
+        'Distorted': 1,
+        'Glassy': 1,
+        'Tight': 1,
+        'Clean': 1,
+        'Dull': 1,
+        'Thick': 1
+    },
+    '00020-05':
+    {
+        'Ringing': 1,
+        'Round': 1,
+        'Focused': 1
+    },
+    '00047-09':
+    {
+        'Dull': 1,
+        'Thick': 1
+    },
+    '00051-08':
+    {
+        'Abrasive': 1,
+        'Aggressive': 1,
+        'Dark': 1,
+        'Full': 1,
+        'Thick': 1,
+        'Raw': 1,
+        'Distorted': 1,
+        'Dirty': 1,
+        'Crushing': 1
+    },
+    '00078-02':
+    {
+        'Bright': 1
+    },
+    '00036-07':
+    {
+        'Buzzy': 1
+    },
+    '00007-04':
+    {
+        'Abrasive': 1,
+        'Aggressive': 1,
+        'Biting': 1,
+        'Buzzy': 1,
+        'Distorted': 1,
+        'Fizzy': 1,
+        'Gritty': 1,
+        'Fuzzy': 1,
+        'Hissing': 1
+    },
+    '00023-02':
+    {
+        'Compressed': 1
+    },
+    '00053-03':
+    {
+        'Crunchy': 1,
+        'Gritty': 1
+    },
+    '00025-07':
+    {
+        'Artificial': 1
+    },
+    '00007-03':
+    {
+        'Dull': 2,
+        'Warm': 1
+    },
+    '00032-02':
+    {
+        'Distorted': 1,
+        'Heavy': 1
+    },
+    '00042-12':
+    {
+        'Airy': 1
+    },
+    '00062-11':
+    {
+        'Muffled': 1
+    },
+    '00023-09':
+    {
+        'Saturated': 1,
+        'Distorted': 1,
+        'Dirty': 1,
+        'Compressed': 1,
+        'Boomy': 1,
+        'Harsh': 1
+    },
+    '00048-10':
+    {
+        'Thumping': 1,
+        'Chunky': 1
+    },
+    '00068-11':
+    {
+        'Abrasive': 1,
+        'Buzzy': 1,
+        'Dirty': 1,
+        'Harsh': 1,
+        'Gritty': 1,
+        'Round': 1,
+        'Muffled': 1,
+        'Flabby': 1,
+        'Loose': 1
+    },
+    '00068-08':
+    {
+        'Buzzy': 1,
+        'Flat': 1
+    },
+    '00018-02':
+    {
+        'Sharp': 1,
+        'Piercing': 1
+    },
+    '00048-03':
+    {
+        'Bright': 1
+    },
+    '00016-01':
+    {
+        'Crunchy': 1
+    },
+    '00053-02':
+    {
+        'Vintage': 1,
+        'Round': 1,
+        'Soft': 1
+    },
+    '00029-06':
+    {
+        'Crunchy': 1
+    },
+    '00047-04':
+    {
+        'Round': 1,
+        'Smooth': 1
+    },
+    '00047-10':
+    {
+        'Aggressive': 1,
+        'Chug': 1,
+        'Chunky': 1,
+        'Thick': 1
+    },
+    '00022-04':
+    {
+        'Muffled': 1,
+        'Muddy': 1,
+        'Tinny': 1,
+        'Flabby': 1
+    },
+    '00020-09':
+    {
+        'Muffled': 1
+    },
+    '00061-03':
+    {
+        'Bright': 1,
+        'Clear': 1,
+        'Distorted': 1,
+        'Crunchy': 1,
+        'Cutting': 1,
+        'Focused': 1,
+        'Nasal': 1,
+        'Piercing': 1,
+        'Sparkly': 1
+    },
+    '00057-12':
+    {
+        'Hairy': 1,
+        'Fizzy': 1,
+        'Bright': 1
+    },
+    '00038-05':
+    {
+        'Dry': 1,
+        'Twangy': 1
+    },
+    '00009-10':
+    {
+        'Hollow': 1,
+        'Round': 1
+    },
+    '00057-07':
+    {
+        'Sharp': 1,
+        'Choked': 1
+    },
+    '00015-07':
+    {
+        'Thin': 1,
+        'Round': 1,
+        'Tinny': 1,
+        'Dirty': 1,
+        'Searing': 1
+    },
+    '00040-04':
+    {
+        'Raw': 1,
+        'Thick': 1
+    },
+    '00039-10':
+    {
+        'Bassy': 1,
+        'Boomy': 1,
+        'Choked': 1,
+        'Distorted': 1,
+        'Dull': 1,
+        'Dry': 1,
+        'Fat': 1
+    },
+    '00042-01':
+    {
+        'Warm': 1
+    },
+    '00027-06':
+    {
+        'Dull': 1,
+        'Round': 1,
+        'Nasal': 1
+    },
+    '00080-06':
+    {
+        'Hollow': 1
+    },
+    '00036-02':
+    {
+        'Crunchy': 1,
+        'Hollow': 1,
+        'Boxy': 1,
+        'Warm': 1,
+        'Dull': 1
+    },
+    '00062-03':
+    {
+        'Abrasive': 2,
+        'Noisy': 1
+    },
+    '00007-05':
+    {
+        'Crunchy': 1,
+        'Brittle': 1,
+        'Gritty': 1
+    },
+    '00060-01':
+    {
+        'Shimmery': 1
+    },
+    '00065-12':
+    {
+        'Compressed': 1,
+        'Choked': 1,
+        'Aggressive': 1,
+        'Strained': 1,
+        'Muddy': 1
+    },
+    '00058-09':
+    {
+        'Dark': 1,
+        'Full': 1,
+        'Huge': 1,
+        'Thick': 1,
+        'Distorted': 1
+    },
+    '00015-04':
+    {
+        'Gritty': 1
+    },
+    '00068-07':
+    {
+        'Gritty': 1
+    },
+    '00028-03':
+    {
+        'Gritty': 1,
+        'Fat': 1
+    },
+    '00054-02':
+    {
+        'Delicate': 1,
+        'Articulate': 1,
+        'Bright': 1,
+        'Open': 1,
+        'Light': 1
+    },
+    '00013-12':
+    {
+        'Buzzy': 1,
+        'Loose': 1,
+        'Articulate': 1,
+        'Thick': 1
+    },
+    '00067-02':
+    {
+        'Light': 1,
+        'Bell-like': 1,
+        'Piercing': 1,
+        'Sizzling': 1
+    },
+    '00008-03':
+    {
+        'Compressed': 1
+    },
+    '00074-05':
+    {
+        'Aggressive': 1,
+        'Tight': 1,
+        'Abrasive': 1
+    },
+    '00050-06':
+    {
+        'Flat': 1,
+        'Light': 1
+    },
+    '00054-01':
+    {
+        'Huge': 1,
+        'Thick': 1
+    },
+    '00026-12':
+    {
+        'Abrasive': 1,
+        'Edgy': 1,
+        'Bold': 1
+    },
+    '00070-03':
+    {
+        'Dark': 1,
+        'Choked': 1,
+        'Dull': 1
+    },
+    '00013-04':
+    {
+        'Hairy': 1,
+        'Vocal': 1
+    },
+    '00036-03':
+    {
+        'Shimmery': 1
+    },
+    '00034-01':
+    {
+        'Dynamic': 1,
+        'Clean': 1
+    },
+    '00020-08':
+    {
+        'Heavy': 1
+    },
+    '00038-12':
+    {
+        'Balanced': 1,
+        'Clear': 1
+    },
+    '00078-12':
+    {
+        'Thin': 1,
+        'Smooth': 1
+    },
+    '00042-04':
+    {
+        'Brilliant': 1
+    },
+    '00007-02':
+    {
+        'Clean': 1,
+        'Jangly': 1
+    },
+    '00035-10':
+    {
+        'Choked': 1,
+        'Compressed': 1,
+        'Honky': 1
+    },
+    '00048-01':
+    {
+        'Bell-like': 1,
+        'Round': 1,
+        'Ringing': 1
+    },
+    '00066-11':
+    {
+        'Tight': 1
+    },
+    '00074-10':
+    {
+        'Compressed': 1
+    },
+    '00037-10':
+    {
+        'Thick': 1,
+        'Muddy': 1
+    },
+    '00059-01':
+    {
+        'Compressed': 1,
+        'Airy': 1,
+        'Clean': 1,
+        'Clear': 1
+    },
+    '00019-02':
+    {
+        'Aggressive': 1,
+        'Raw': 1,
+        'Loose': 1
+    },
+    '00010-10':
+    {
+        'Nasal': 1
+    },
+    '00013-11':
+    {
+        'Aggressive': 1,
+        'Big': 1,
+        'Distorted': 1,
+        'Dirty': 1,
+        'Full': 1,
+        'Muddy': 1
+    },
+    '00018-06':
+    {
+        'Dark': 1
+    },
+    '00029-05':
+    {
+        'Punchy': 1
+    },
+    '00001-09':
+    {
+        'Punchy': 1,
+        'Dull': 1
+    },
+    '00054-11':
+    {
+        'Dry': 1,
+        'Crunchy': 1
+    },
+    '00020-10':
+    {
+        'Scooped': 1,
+        'Thick': 1,
+        'Saturated': 1
+    },
+    '00030-07':
+    {
+        'Fizzy': 1
+    },
+    '00005-10':
+    {
+        'Lush': 1,
+        'Dry': 1,
+        'Full': 1,
+        'Shimmery': 1
+    },
+    '00068-09':
+    {
+        'Muffled': 1
+    },
+    '00046-08':
+    {
+        'Hollow': 1
+    },
+    '00061-11':
+    {
+        'Sharp': 1
+    },
+    '00035-09':
+    {
+        'Aggressive': 1
+    },
+    '00003-03':
+    {
+        'Dirty': 1
+    },
+    '00041-08':
+    {
+        'Sizzling': 1
+    },
+    '00013-02':
+    {
+        'Ringing': 1
+    },
+    '00015-01':
+    {
+        'Abrasive': 1,
+        'Aggressive': 1,
+        'Biting': 1,
+        'Buzzy': 1,
+        'Brittle': 1,
+        'Bright': 1,
+        'Crunchy': 1,
+        'Cutting': 1,
+        'Dirty': 1,
+        'Fizzy': 1,
+        'Harsh': 1,
+        'Gritty': 1,
+        'Fuzzy': 1,
+        'Hissing': 1,
+        'Icepicky': 1,
+        'Piercing': 1,
+        'Noisy': 1,
+        'Sizzling': 1
+    },
+    '00024-11':
+    {
+        'Scooped': 1,
+        'Dark': 1,
+        'Fuzzy': 1,
+        'Distorted': 1,
+        'Grind': 1,
+        'Raw': 1,
+        'Boomy': 1,
+        'Boxy': 1,
+        'Heavy': 1,
+        'Saturated': 1
+    },
+    '00066-12':
+    {
+        'Aggressive': 1,
+        'Big': 1,
+        'Raw': 1,
+        'Punchy': 1
+    },
+    '00052-03':
+    {
+        'Muffled': 1,
+        'Hollow': 1
+    }
+}
