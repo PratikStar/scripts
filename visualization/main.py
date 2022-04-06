@@ -108,7 +108,7 @@ df = get_subclip_vs_attribute_df()
 
 
 # Input to this will be clips x attributes dataframe. Using get_subclip_vs_attribute_df
-def get_attribute_to_min_max_clips_dict(df):
+def get_attribute_to_subclip_to_count_dict(df):
     d = {}
     for (attribute, subclips) in df.iteritems():
         # print(attribute)
