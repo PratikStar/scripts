@@ -28,7 +28,7 @@ if not os.path.exists("tsv"):
 
 def get2dmatrix(exports_dynamo_directory = "../exports-dynamo"):
     d = {} ## clip -> attribute
-    with open(os.path.join(exports_dynamo_directory, '20210905160610-timbre_survey.csv'), 'r', newline='')  as f:
+    with open(os.path.join(os.path.dirname(os.path.realpath(__file__)), exports_dynamo_directory, '20210905160610-timbre_survey.csv'), 'r', newline='')  as f:
         reader = csv.DictReader(f, delimiter=',')
         for row in reader:
             # print('\n ======= ')
@@ -72,8 +72,8 @@ def get2dmatrix(exports_dynamo_directory = "../exports-dynamo"):
     df = pd.DataFrame.from_dict(data=d)
     df = df.T # transpose the DF, Now, rows -> clips, columns -> attributes
     
-    print(df)
+    # print(df)
     return df
 
-df = get2dmatrix()
+# df = get2dmatrix()
 # print(df.loc[['Distorted'] , ['00018-10', '00003-11']])

@@ -14,7 +14,7 @@
 --no-browser \
 --NotebookApp.answer_yes=True \
 --log-level=DEBUG \
---ServerApp.allow_origin='https://colab.research.google.com' \
+--NotebookApp.allow_origin='https://colab.research.google.com' \
 --port=8888 \
 --ServerApp.port_retries=0 \
 --ip=0.0.0.0 &
@@ -32,15 +32,17 @@
 4. [Local machine] SSH port forward a specific port to port 8888 on GPU node
 	
 	`ssh <username>@<remote_IP> -N -f -L <local_port>:<remote_IP>:<remote_port>
-	 # ssh pratik@133.11.34.101 -N -f -L 8888:133.11.34.101:8888
+	 # ssh pratik@133.11.34.101 -N -v -L 8888:133.11.34.101:8888	(local <-> Gateway server)
+	 # ssh pratik@133.11.34.101 -N -v -L 8888:133.11.34.102:8888	(local <-> Gateway server <-> GPU Node)
 	`
 
 	* The options are explained below:
 	* -N: Do not execute a remote command.  This is useful for just forwarding ports
 	* -f: Requests ssh to go to background just before command execution.  This is useful if ssh is going to
-        ask for passwords or passphrases, but the user wants it in the background
+        ask for passwords or passphrases, but the user wants it in the background (For running experiments)
     * -L: Specifies that the given port on the local (client) host is to be forwarded to the given host and
         port on the remote side
+    * -v: For verbose output (For experiments and debugging)
 
 
 4. Open http://localhost:8888
