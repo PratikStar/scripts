@@ -26,7 +26,7 @@ if not os.path.exists("tsv"):
 ################################
 
 
-def get2dmatrix(exports_dynamo_directory = "../exports-dynamo"):
+def get_clip_to_attribute_df(exports_dynamo_directory = "../exports-dynamo"):
     d = {} ## clip -> attribute
     with open(os.path.join(os.path.dirname(os.path.realpath(__file__)), exports_dynamo_directory, '20210905160610-timbre_survey.csv'), 'r', newline='')  as f:
         reader = csv.DictReader(f, delimiter=',')
