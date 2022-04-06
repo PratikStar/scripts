@@ -25,7 +25,7 @@ if not os.path.exists("tsv"):
 ################################
 
 
-def get_subclip_to_attribute_df(exports_dynamo_directory = "../exports-dynamo"):
+def get_subclip_vs_attribute_df(exports_dynamo_directory = "../exports-dynamo"):
     d = {} ## subclip -> attribute
     with open(os.path.join(os.path.dirname(os.path.realpath(__file__)), exports_dynamo_directory, '20210905160610-timbre_survey.csv'), 'r', newline='')  as f:
         reader = csv.DictReader(f, delimiter=',')
@@ -103,9 +103,26 @@ def get_subclip_to_attribute_df(exports_dynamo_directory = "../exports-dynamo"):
     # print(df)
     return df
 
-df = get_subclip_to_attribute_df()
+df = get_subclip_vs_attribute_df()
 
-for (columnName, columnData) in df.iteritems():
-    print(columnName)
-    print(columnData.value_counts())
-    # print(df.loc[:, columnName].sort_values())
+
+
+# Input to this will be clips x attributes dataframe. Using get_subclip_vs_attribute_df
+def get_attribute_to_min_max_clips_dict(df):
+    d = {}
+    for (attribute, subclips) in df.iteritems():
+        # print(attribute)
+        # print(subclips)
+        d[attribute] = {}
+        for subclip, count in subclips.items():
+            if pd.notnull(count):
+                d[attribute][subclip] = count
+                # print(subclip)
+                # print(count)
+    ## Print the dictionary
+    with open(os.path.join('dicts', 'd_attribute_to_subclip_to_count.txt'), 'wt') as out:
+        pprint.pprint(d, stream=out, indent=4, width=20)
+    return d
+
+pprint.pprint(get_attribute_to_min_max_clips_dict(df))
+
