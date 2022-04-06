@@ -26,8 +26,8 @@ if not os.path.exists("tsv"):
 ################################
 
 
-def get_clip_to_attribute_df(exports_dynamo_directory = "../exports-dynamo"):
-    d = {} ## clip -> attribute
+def get_subclip_to_attribute_df(exports_dynamo_directory = "../exports-dynamo"):
+    d = {} ## subclip -> attribute
     with open(os.path.join(os.path.dirname(os.path.realpath(__file__)), exports_dynamo_directory, '20210905160610-timbre_survey.csv'), 'r', newline='')  as f:
         reader = csv.DictReader(f, delimiter=',')
         for row in reader:
@@ -48,29 +48,58 @@ def get_clip_to_attribute_df(exports_dynamo_directory = "../exports-dynamo"):
             ## The answer is 'Not Applicable'
             if ans not in ['clip_a', 'clip_b']:
                 continue
-            clip = row[ans]
+            subclip = row[ans]
 
+            attribute = row['attribute']
+
+
+            if row['clip_a'] not in d:
+                d[row['clip_a']] = {}
+                d[row['clip_a']][attribute] = 1 if ans == 'clip_a' else -1
+            else:
+                if attribute not in d[row['clip_a']]:
+                    d[row['clip_a']][attribute] = 1 if ans == 'clip_a' else -1
+                else:
+                    if ans == 'clip_a':
+                        d[row['clip_a']][attribute] += 1
+                    else:
+                        d[row['clip_a']][attribute] -= 1
+
+            if row['clip_b'] not in d:
+                d[row['clip_b']] = {}
+                d[row['clip_b']][attribute] = 1 if ans == 'clip_b' else -1
+            else:
+                if attribute not in d[row['clip_b']]:
+                    d[row['clip_b']][attribute] = 1 if ans == 'clip_b' else -1
+                else:
+                    if ans == 'clip_b':
+                        d[row['clip_b']][attribute] += 1
+                    else:
+                        d[row['clip_b']][attribute] -= 1
+
+
+
+
+            # Processing "others"
             attributes = row['others'][1:-1].replace('\'', '').replace(' ', '').split(',')
             
-            
-            
             for attribute in attributes:
-                if clip in d:
-                    if attribute in d[clip]:
-                        d[clip][attribute] += 1
+                if subclip in d:
+                    if attribute in d[subclip]:
+                        d[subclip][attribute] += 1
                     else:
-                        d[clip][attribute] = 1
+                        d[subclip][attribute] = 1
                 else:
-                    d[clip] = {}
-                    d[clip][attribute] = 1
+                    d[subclip] = {}
+                    d[subclip][attribute] = 1
             # break
 
     ## Print the dictionary
-    with open(os.path.join('dicts', 'd_clip_to_attribute_to_count.txt'), 'wt') as out:
+    with open(os.path.join('dicts', 'd_subclip_to_attribute_to_count.txt'), 'wt') as out:
         pprint.pprint(d, stream=out, indent=4, width=20)
 
     df = pd.DataFrame.from_dict(data=d)
-    df = df.T # transpose the DF, Now, rows -> clips, columns -> attributes
+    df = df.T # transpose the DF, Now, rows -> subclips, columns -> attributes
     
     # print(df)
     return df
