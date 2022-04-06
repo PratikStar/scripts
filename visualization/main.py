@@ -9,7 +9,6 @@ import numpy as np
 import json
 import os
 import os.path
-from scipy import spatial
 import pandas as pd
 import pprint
 ### Export data ---do something---> output
@@ -104,5 +103,9 @@ def get_subclip_to_attribute_df(exports_dynamo_directory = "../exports-dynamo"):
     # print(df)
     return df
 
-# df = get2dmatrix()
-# print(df.loc[['Distorted'] , ['00018-10', '00003-11']])
+df = get_subclip_to_attribute_df()
+
+for (columnName, columnData) in df.iteritems():
+    print(columnName)
+    print(columnData.value_counts())
+    # print(df.loc[:, columnName].sort_values())
