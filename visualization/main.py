@@ -170,6 +170,6 @@ d_attribute_to_subclip_to_count = get_attribute_to_subclip_to_count_dict(df)
 # pprint.pprint(get_attribute_to_subclip_to_count_dict(df))
 
 
-for k, v in d_attribute_to_subclip_to_count.items():
-    print(k, v)
+# for k, v in d_attribute_to_subclip_to_count.items():
+#     print(k, v)
 
