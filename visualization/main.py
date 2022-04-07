@@ -28,7 +28,7 @@ if not os.path.exists("tsv"):
 
 # Returns: { <attribute>: [[clip_a, clip_b], [..., ...]]}
 # Here clip_b is the answer
-def get_attribute_to_pairwise_comparision_answers_for_arrow_plot(exports_dynamo_directory = "../exports-dynamo"):
+def get_attribute_to_pairwise_comparision_result_for_arrow_plot(exports_dynamo_directory = "../exports-dynamo"):
     d = {} 
     with open(os.path.join(os.path.dirname(os.path.realpath(__file__)), exports_dynamo_directory, '20210905160610-timbre_survey.csv'), 'r', newline='')  as f:
         reader = csv.DictReader(f, delimiter=',')
@@ -65,7 +65,7 @@ def get_attribute_to_pairwise_comparision_answers_for_arrow_plot(exports_dynamo_
 
     return d
 
-get_attribute_to_pairwise_comparision_answers_for_arrow_plot()
+get_attribute_to_pairwise_comparision_result_for_arrow_plot()
 
 def get_subclip_vs_attribute_df(exports_dynamo_directory = "../exports-dynamo"):
     d = {} ## subclip -> attribute
