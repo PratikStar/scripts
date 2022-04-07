@@ -25,6 +25,48 @@ if not os.path.exists("tsv"):
 ################################
 
 
+
+# Returns: { <attribute>: [[clip_a, clip_b], [..., ...]]}
+# Here clip_b is the answer
+def get_attribute_to_pairwise_comparision_answers_for_arrow_plot(exports_dynamo_directory = "../exports-dynamo"):
+    d = {} 
+    with open(os.path.join(os.path.dirname(os.path.realpath(__file__)), exports_dynamo_directory, '20210905160610-timbre_survey.csv'), 'r', newline='')  as f:
+        reader = csv.DictReader(f, delimiter=',')
+        for row in reader:
+            # print('\n ======= ')
+            # print(row)
+
+            ## The person has not actually listened
+            # if len(row['clicks']) == 0:
+            #     print('Unclicked annotation')
+            #     continue
+            
+            ## The 'others' string is empty
+            ## Note: row['others'] is a string
+            if len(row['others']) <= 2:
+                continue
+
+            ans = row['answer']
+            ## The answer is 'Not Applicable'
+            if ans not in ['clip_a', 'clip_b']:
+                continue
+
+            attribute = row['attribute']
+
+            if attribute not in d:
+                d[attribute] = []
+
+            d[attribute].append([row['clip_a'] if ans == 'clip_b' else row['clip_a'],
+                            row['clip_a'] if ans == 'clip_a' else row['clip_b']])
+
+    ## Print the dictionary
+    with open(os.path.join('dicts', 'd_attribute_to_pairwise_comparision_result.txt'), 'wt') as out:
+        pprint.pprint(d, stream=out, indent=4, width=20)
+
+    return d
+
+get_attribute_to_pairwise_comparision_answers_for_arrow_plot()
+
 def get_subclip_vs_attribute_df(exports_dynamo_directory = "../exports-dynamo"):
     d = {} ## subclip -> attribute
     with open(os.path.join(os.path.dirname(os.path.realpath(__file__)), exports_dynamo_directory, '20210905160610-timbre_survey.csv'), 'r', newline='')  as f:
@@ -130,3 +172,4 @@ d_attribute_to_subclip_to_count = get_attribute_to_subclip_to_count_dict(df)
 
 for k, v in d_attribute_to_subclip_to_count.items():
     print(k, v)
+
