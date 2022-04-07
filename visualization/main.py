@@ -124,5 +124,9 @@ def get_attribute_to_subclip_to_count_dict(df):
         pprint.pprint(d, stream=out, indent=4, width=20)
     return d
 
-# pprint.pprint(get_attribute_to_min_max_clips_dict(df))
+d_attribute_to_subclip_to_count = get_attribute_to_subclip_to_count_dict(df)
+# pprint.pprint(get_attribute_to_subclip_to_count_dict(df))
 
+
+for k, v in d_attribute_to_subclip_to_count.items():
+    print(k, v)
