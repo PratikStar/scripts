@@ -1,4 +1,4 @@
-# Status: In progress
+# Status: Outdated. 2022/04/22 the latest code is int he notebook
 # Description: 
 # How to: python3 <>.py
 # Note: Just update the TABLES array before running the script
