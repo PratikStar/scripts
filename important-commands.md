@@ -1,3 +1,5 @@
+## Colab to GPU servers
+
 1. [GPU node] Install Jupyterlab, notebook, and Jupyter HTTP over WebSocket
 	
 	`pip3 install jupyterlab notebook jupyter_http_over_ws`
@@ -50,6 +52,73 @@
 5. Do not forget to stop the port forwarding on your local machine and jupyter notebook app on the GPU node
 
 
+
+## Rsync: Remote Development
+
+1. rsync whole "repos" directory first
+
+CSISV
+`rsync -av "/Users/pratik/repos" ist1:/home/pratik`
+
+WISTERIA - repos
+`rsync -av "/Users/pratik/repos" w:/work/gk77/k77021/`
+
+WISTERIA - data
+`rsync -av "/Users/pratik/data" w:/work/gk77/k77021/`
+
+Custom
+`cd /Users/pratik/repos/PyTorch-VAE
+rsync -av --exclude-from=".rsyncignore_upload" "/Users/pratik/repos/PyTorch-VAE" w:/work/gk77/k77021/repos`
+
+Get log files from wisteria
+`rsync -av w:/work/gk77/k77021/repos/PyTorch-VAE/logs "/Users/pratik/repos/PyTorch-VAE"`
+
+
+2. Watch: Online editing
+
+* Change the remote server as you want
+* Change the local and remote dir
+
+Pytorch-VAE
+`watch -d -n5 "rsync -av --exclude-from=\".rsyncignore_upload\" \"/Users/pratik/repos/PyTorch-VAE\" w:/work/gk77/k77021/repos"`
+
+Get log files from wisteria
+`watch -d -n5 "rsync -av w:/work/gk77/k77021/repos/PyTorch-VAE/logs \"/Users/pratik/repos/PyTorch-VAE\""`
+
+
+
+## Wisteria login
+https://wisteria-www.cc.u-tokyo.ac.jp/cgi-bin/hpcportal_u.ja/index.cgi
+
+UserID: k77021
+Email: PratikSutar@is.s.u-tokyo.ac.jp, pratik-sutar@g.ecc.u-tokyo.ac.jp
+Pass: <WIS> x 2 + usual symbols + Indian first four
+
+Login
+`ssh -l k77021 -i ~/.ssh/id_rsa wisteria.cc.u-tokyo.ac.jp`, OR
+`ssh wisteria`
+
+
+## Install pyenv & python
+
+```
+git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+cd ~/.pyenv && src/configure && make -C src
+
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+echo 'eval "$(pyenv init -)"' >> ~/.bashrc
+
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
+echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
+echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
+source ~/.bashrc
+source ~/.bash_profile
+
+pyenv
+pyenv install 3.10.4
+pyenv global 3.10.4
+```
 ## References
 https://research.google.com/colaboratory/local-runtimes.html
 https://www.concordia.ca/ginacody/aits/support/faq/ssh-tunnel.html

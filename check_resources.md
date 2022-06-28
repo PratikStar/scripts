@@ -14,3 +14,6 @@
 	`lspci -v | egrep -i --color 'vga|3d|2d'`
 
 	`nvidia-smi`
+
+5. CUDA version
+	`cat /usr/local/cuda/version.txt`
