@@ -6,33 +6,34 @@ from pathlib import Path
 path = Path("/Users/pratik/data/timbre/clips")
 ### ###
 
-cuts = [  # 12 passages
-    0,
-    9,
-    17.5,
-    27,  # Maybe not?
-    35,
-    43,
-    53,
-    61,  # 7
-    71,
-    78.65,
-    84.5,
-    90.5,  # 12th clip
-    101  # nothing after this clip
+cuts = [  # 13 passages
+    [0.3, 8],  # mono
+    [9.6, 16.5],  # poly
+    [18.4, 26.5],  # poly
+    [27.4, 34],  # poly
+    [35.7, 41.6],  # poly
+    [44, 51.7],  # mono. but last strum
+    [53.5, 60.5],  # mono. but three strum in the middle
+    [61.4, 70],  # mono.
+    [71.55, 78.65],  # mono
+    [78.65, 84.5],  # poly
+    [84.5, 90.2],  # mono
+    [90.5, 95.3],  # mono # 12th clip
+    [96, 100.7]  # mono
 ]
 
 monophonic = [0,
               5,  # a chord is strummed at the end, but rest of the clip is monophonic
-              6,  # seems two strings are plucked in the mid
+              6,
+              7,  # seems two strings are plucked in the mid
               8,
               10,
-              11]
-polyphonic = [1, 2, 3, 4, 7, 9]
+              11,
+              12]
+polyphonic = [1, 2, 3, 4, 9]
 
-
-mono_path = path / 'monophonic'
-poly_path = path / 'polyphonic'
+mono_path = path / '..' / 'monophonic'
+poly_path = path / '..' / 'polyphonic'
 
 if not os.path.exists(mono_path):
     os.mkdir(mono_path)
@@ -41,31 +42,27 @@ if not os.path.exists(poly_path):
 
 
 for source_file in os.listdir(path):
-	if not source_file.endswith('.wav'):
-		continue
-	print(f"Cutting {source_file}")
-	song = AudioSegment.from_wav(path / source_file)
+    if not source_file.endswith('.wav'):
+        continue
+    print(f"Loading {source_file}")
+    song = AudioSegment.from_wav(path / source_file).set_channels(1)
 
-	print(f"\tProcessing monophonic passages...")
-	mono_clip = None
-	for i in range(len(cuts) - 1):
-		if i not in monophonic:
-			continue
-		cut = song[cuts[i] * 1000: cuts[i + 1] * 1000]
-		if mono_clip is None:
-			mono_clip = cut
-		else:
-			mono_clip += cut
-	mono_clip.export(mono_path/source_file, format="wav")
+    # print(f"\tProcessing monophonic passages...")
+    # suffix = 1
+    # for i in range(len(cuts)):
+    #     if i not in monophonic:
+    #         continue
+    #     cut = song[cuts[i][0] * 1000: cuts[i][1] * 1000]
+    #
+    #     cut.export(mono_path / source_file.replace('.wav', f" - {suffix} .wav"), format="wav")
+    #     suffix += 1
 
-	print(f"\tProcessing polyphonic passages...")
-	poly_clip = None
-	for i in range(len(cuts) - 1):
-		if i not in polyphonic:
-			continue
-		cut = song[cuts[i] * 1000: cuts[i + 1] * 1000]
-		if poly_clip is None:
-			poly_clip = cut
-		else:
-			poly_clip += cut
-	poly_clip.export(poly_path/source_file, format="wav")
+    # break
+    print(f"\tProcessing polyphonic passages...")
+    suffix = 1
+    for i in range(len(cuts)):
+        if i not in polyphonic:
+            continue
+        cut = song[cuts[i][0] * 1000: cuts[i][1] * 1000]
+        cut.export(poly_path / source_file.replace('.wav', f" - {suffix} .wav"), format="wav")
+        suffix += 1
