@@ -27,7 +27,7 @@ if not os.path.exists("tsv"):
 
 d_attribute_to_clipids = utilities.get_attribute_to_clipids_dict(exports_dynamo_directory)
 # json.dump(d_attribute_to_clipids, open("dicts/dict_attribute_to_clipids.txt",'w'))
-
+# exit()
 ################################
 ################################
 

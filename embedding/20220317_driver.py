@@ -10,8 +10,8 @@ from scipy import spatial
 
 
 d_segmentid_to_embedding = get_clipid_to_embedding_dict(dicts_dir="dicts-final-4d")
-# print(sorted(d_segmentid_to_embedding.keys()))
-# exit()
+print(sorted(d_segmentid_to_embedding.keys()))
+exit()
 d_attr_to_clipids = get_attribute_to_clipids_dict(dicts_dir="dicts-final-4d")
 
 d_clipid_to_attrs = {}
