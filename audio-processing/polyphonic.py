@@ -32,13 +32,15 @@ monophonic = [0,
               12]
 polyphonic = [1, 2, 3, 4, 9]
 
-mono_path = path / '..' / 'monophonic1'
+mono_path = path / '..' / 'monophonic-tmp'
 poly_path = path / '..' / 'polyphonic'
 
 if not os.path.exists(mono_path):
     os.mkdir(mono_path)
+    os.mkdir(mono_path / 'test')
 if not os.path.exists(poly_path):
     os.mkdir(poly_path)
+    os.mkdir(poly_path / 'test')
 
 regex = ".*"
 
@@ -51,24 +53,39 @@ for source_file in sorted(os.listdir(path)):
     print(f"Loading {source_file}")
     song = AudioSegment.from_wav(path / source_file).set_channels(1)
 
+    allsound = None
     print(f"\tProcessing monophonic passages...")
-    suffix = 1
+    # suffix = 1
     for i in range(len(cuts)):
         if i not in monophonic:
             continue
         cut = song[cuts[i][0] * 1000: cuts[i][1] * 1000]
 
-        cut.export(mono_path / source_file.replace('.wav', f" - {suffix} .wav"), format="wav")
-        suffix += 1
+        # cut.export(mono_path / source_file.replace('.wav', f" - {suffix} .wav"), format="wav")
+        # suffix += 1
+        if allsound is None:
+            allsound = cut
+        else:
+            # print("appending")
+            allsound = allsound.append(cut,  crossfade=0)
 
+    slices = allsound[::4000]
 
+    i = 1
+    for sl in slices:
+        if i == 6:
+            dest_file_name = f"{mono_path}/test/{source_file.split('.wav')[0]} - {i}.wav"
+        else:
+            dest_file_name = f"{mono_path}/{source_file.split('.wav')[0]} - {i}.wav"
+        sl.export(dest_file_name, format="wav")
+        i += 1
 
-    continue
-    print(f"\tProcessing polyphonic passages...")
-    suffix = 1
-    for i in range(len(cuts)):
-        if i not in polyphonic:
-            continue
-        cut = song[cuts[i][0] * 1000: cuts[i][1] * 1000]
-        cut.export(poly_path / source_file.replace('.wav', f" - {suffix} .wav"), format="wav")
-        suffix += 1
+    # break
+    # print(f"\tProcessing polyphonic passages...")
+    # suffix = 1
+    # for i in range(len(cuts)):
+    #     if i not in polyphonic:
+    #         continue
+    #     cut = song[cuts[i][0] * 1000: cuts[i][1] * 1000]
+    #     cut.export(poly_path / source_file.replace('.wav', f" - {suffix} .wav"), format="wav")
+    #     suffix += 1
