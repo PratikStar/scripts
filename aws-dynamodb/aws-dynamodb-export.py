@@ -9,6 +9,8 @@ import pytz
 
 
 TABLES = [
+        'timbre_eval',
+        'users',
         'timbre_survey',
         'dontknow',
         'less',
@@ -30,7 +32,7 @@ def export_table(dynamodb, TABLE_NAME, ts):
     keys = set()
     for item in items: keys.update(item.keys())
 
-    with open('exports/' + ts + '-' + TABLE_NAME + '.csv', 'w', newline='')  as output_file:
+    with open('exports-dynamo/' + ts + '-' + TABLE_NAME + '.csv', 'w', newline='')  as output_file:
         dict_writer = csv.DictWriter(output_file, list(keys))
         dict_writer.writeheader()
         dict_writer.writerows(items)
